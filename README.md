@@ -1,4 +1,43 @@
-# Getting Started with Create React App
+# Amazon Mock E-commerce web app
+
+- Front end build with ReactJS.
+- Backend imiplementation using Node.JS, and Firebase/Firestore for authentication, hostig, and datastore.
+
+## Screen shots Of the Running App
+
+### Register Page
+
+(The client side register-page)
+
+![register-page-image](ScreenShots/sc-Register.png)
+
+### SignIn Page
+
+![signin](ScreenShots/sc-SignIn.png)
+
+### Home Page
+
+![homepage](ScreenShots/sc-HomeScreen.png)
+
+### Cart Screen
+
+![cart-screen](ScreenShots/sc-Cart.png)
+
+### Payment Screen
+
+![pymnt-screen](ScreenShots/sc-PaymentScreen.png)
+
+( Payment Processing )
+
+![pymnt-screen2](ScreenShots/sc-PaymentProcessing.png)
+
+### Order Screen
+
+![order-screen](ScreenShots/sc-orderScreen.png)
+
+
+
+# Getting Started with Create React App and Running the project Locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +45,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn install or npm install`
+
+Installs all the necessary packages to run the app i development mode.\
+
+The cosole will show if the packages were successfully installed.\
+You will also see any lint errors in the console.
+
+### `yarn start or npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +60,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn test or npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `yarn build or npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -62,6 +108,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+
+The current app is deployed using firebase, you can choose any other methods and if you choose firebase, make necessary config changes to thhe firebase.js file
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 

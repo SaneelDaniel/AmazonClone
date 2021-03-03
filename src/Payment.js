@@ -10,7 +10,7 @@ import { useStateValue } from './StateProvider'
 import {db} from './firebase'
 
 function Payment() {
-
+ 
     //state management with hooks
 
     //state for basket and user details

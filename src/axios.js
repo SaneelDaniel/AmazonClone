@@ -8,4 +8,4 @@ const instance = axios.create({
     //The API (CLOUD FUNCTION) URL
 });
 
-export default instance;
+export default instance; 

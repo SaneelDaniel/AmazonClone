@@ -1,7 +1,8 @@
 # Amazon Mock E-commerce web app
 
 - Front end build with ReactJS.
-- Backend imiplementation using Node.JS, and Firebase/Firestore for authentication, hostig, and datastore.
+- Backend imiplementation using Node.JS, Firebase Cloud functions for authentication, cart, product, orders, and payments management, Firestore NoSQL datastore to store the records, and Firebase Hosting to host the app.
+- [Live App](https://react-ecom-template.web.app)
 
 ## Screen shots Of the Running App
 
